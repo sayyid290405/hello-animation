@@ -15,7 +15,7 @@ white = (255, 255, 255)
 
 # Mengatur font
 font = pygame.font.Font(None, 74)  # Ukuran font 74
-text = font.render('Hello kontol', True, white)  # Membuat surface untuk teks
+text = font.render('Hello', True, white)  # Membuat surface untuk teks
 text_rect = text.get_rect(center=(100, screen_height // 2))  # Posisi awal teks
 
 # Kecepatan gerakan
